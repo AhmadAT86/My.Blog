@@ -15,6 +15,7 @@ namespace My.Blog.Web.Controllers
     [Authorize]
     public class AccountController : Controller
     {
+        //Testar uppkopplingen mot GitHub
         public AccountController()
             : this(new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext())))
         {
