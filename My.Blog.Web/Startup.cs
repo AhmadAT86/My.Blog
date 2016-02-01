@@ -8,6 +8,7 @@ namespace My.Blog.Web
     {
         public void Configuration(IAppBuilder app)
         {
+            //inga förändringar utan bara testar uppkopplingen mot github
             ConfigureAuth(app);
         }
     }
